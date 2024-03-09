@@ -7,7 +7,7 @@ function StopButton({ onStop }) {
     };
 
     return (
-        <button onClick={handleStop}>Stop</button>
+        <button className="btn btn-danger" onClick={handleStop}>Stop</button>
     );
 }
 
@@ -17,7 +17,7 @@ function ResumeButton({ onResume }) {
     };
 
     return (
-        <button onClick={handleResume}>Resume/ Start</button>
+        <button className="btn btn-success" onClick={handleResume}>Resume / Start</button>
     );
 }
 
@@ -27,7 +27,7 @@ function ResetButton({ onReset }) {
     };
 
     return (
-        <button onClick={handleReset}>Reset</button>
+        <button className="btn btn-warning" onClick={handleReset}>Reset</button>
     );
 }
 
